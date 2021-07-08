@@ -485,12 +485,12 @@ def calltestGetProfilePicture():
     print("testGetProfilePicture - customer - "+result)
 
 def calltestdelete_user():
-    user_id="OQ8uBuyUukhOJhiIzqqe5zylNE92"
+    user_id=""
     result=testdelete_user(user_id)
     print('calltestdelete_user - '+result)
 
 def calltestGetMenu():
-    currentRestaurantMenuId="NNrCqFrQtmh1xu3GCCfdb1iprhk2"
+    currentRestaurantMenuId=""
     result=testGetMenu(currentRestaurantMenuId)
     print('calltestGetMenu - '+result)
 
@@ -498,12 +498,12 @@ def calltestfoodItemAdder():
     name="Burger"
     price="80"
     local_file_path=os.path.abspath('static/test_images/burger.jpg')
-    restaurantId="NNrCqFrQtmh1xu3GCCfdb1iprhk2"
+    restaurantId=""
     result=testfoodItemAdder(name,price,local_file_path,restaurantId)
     print('calltestfoodItemAdder - '+result)
 
 def calltestSignIn():
-    email="demo.restaurant@gmail.com"
+    email="demo.customer@gmail.com"
     password="password123"
     result=testSignIn(email,password)
     print('calltestSignIn - '+result)
@@ -519,13 +519,13 @@ def calltestGetAllDelivery():
     print('calltestGetAllDelivery - '+result)
 
 def calltestchangeRecommendFoodItem():
-    foodItemId="XTlSBcOQaSQdbEKR3woc"
-    restaurantId="NNrCqFrQtmh1xu3GCCfdb1iprhk2"
+    foodItemId=""
+    restaurantId=""
     result=testchangeRecommendFoodItem(foodItemId,restaurantId)
     print('calltestchangeRecommendFoodItem - '+result)
 
 def calltestchangeRecommendedRestaurant():
-    restaurantId="NNrCqFrQtmh1xu3GCCfdb1iprhk2"
+    restaurantId=""
     result=testchangeRecommendedRestaurant(restaurantId)
     print('calltestchangeRecommendedRestaurant - '+result)
 
